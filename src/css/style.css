@@ -1,0 +1,148 @@
+@font-face{
+    font-family: "bold";
+    src: url('../fonts/BORUTTA-GROUP-Migrena_Grotesque-Bold.otf');
+    font-weight: bold;
+}
+.bold {
+    font-family: "bold";
+}
+@font-face{
+    font-family: "regular";
+    src: url('../fonts/BORUTTA-GROUP-Migrena_Grotesque-Regular.otf');
+}
+.regular {
+    font-family: "regular";
+}
+.navbar-brand.regular {
+    font-family: "regular";
+}
+.regular-search {
+    font-family: "regular";
+}
+.bold-header {
+    font-family: "bold";
+}
+.bold-search {
+    margin-left: -33%;
+}
+.bold-button {
+    font-family: "bold";
+}
+.bold-results {
+    font-family: "bold";
+    margin-right: 78%;
+}
+.bold-filter {
+    font-family: "bold";
+    margin-right: 80%;
+}
+.regular-search {
+    min-width: 100%;
+    width: 50%;
+}
+.search-form {
+    max-width: 30%;
+    left: 36%;
+}
+.bold-search {
+    font-size: 16px;
+    padding: 10px 18px;
+}
+@media screen and (max-width: 500px) {
+    .cards {
+        width: 13rem;
+        margin-left: 16%;
+        margin-top: 10%;
+    }
+    .bold-button {
+        margin-left: 32%;
+    }
+    .bold-results {
+        margin-left: -10%;
+        
+    }
+    .col-sm-8 {
+        width: 180px;
+    }
+    .bold-filter {
+        margin-right: 0%;
+    }
+    .card-filter {
+        margin-left: 32%;
+    }
+    .bold-header {
+        margin-left: -20%;
+    }
+    .regular-search {
+        margin-left: -5%;
+    }
+    .search-form {
+        max-width: 60%;
+        left: 23.5%;
+        margin-top: 5%;
+    }
+    .bold-search {
+        margin-left: -35%;
+        width: 90px;
+        height: 48px;
+    }
+}
+@media screen and (max-width: 414px) {
+    .bold-search {
+        margin-left: -32%;
+        padding: 5px 0px ;
+        font-size: 14px;
+    }
+    .search-form {
+        margin-left: -2%;
+    }
+    .bold-header {
+        margin-left: -22%;
+    }
+    .card-filter {
+        margin-left: 43%;
+    }
+    .bold-filter {
+        margin-left: 20%;
+    }
+    .cards {
+        margin-left: 22%;
+    }
+    .bold-results {
+        margin-left: 25%;
+        margin-top: 8%;
+        margin-bottom: -8%;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .bold-search {
+        margin-left: -32.6%;
+    }
+    .bold-header {
+        margin-left: -4%;
+    }
+}
+@media screen and (min-width: 1680px) {
+    .bold-search {
+        margin-left: -24.77%;
+    }
+    .bold-header {
+        margin-left: -0.5%;
+    }
+}
+@media screen and (min-width: 1920px) {
+    .bold-search {
+        width: 20%;
+        margin-left: -25%;
+    }
+    .search-form {
+        max-width: 35%;
+        margin-left: 4%;
+    }
+    .bold-header {
+        margin-left: 4%;
+    }
+    .regular-search {
+        width: 80%;
+    }
+}
