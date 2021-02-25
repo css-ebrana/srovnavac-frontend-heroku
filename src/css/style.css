@@ -133,14 +133,14 @@
 @media screen and (min-width: 1920px) {
     .bold-search {
         width: 20%;
-        margin-left: -25%;
+        margin-left: -20%;
     }
     .search-form {
         max-width: 35%;
         margin-left: 4%;
     }
     .bold-header {
-        margin-left: 4%;
+        margin-left: 2%;
     }
     .regular-search {
         width: 80%;
